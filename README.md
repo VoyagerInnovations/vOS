@@ -5,8 +5,8 @@ A minimal CentOS-based hardened OS ideal for AWS.
 - CentOS 6
 - CentOS 7
 
-## Releases
+### Releases
 ||releases placeholder||
 
-## Packages
+### Packages
 Aside from the bare mininum, the following [packages](https://github.com/VoyagerInnovations/hardened1-packages/blob/master/packages.txt) are included.
