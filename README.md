@@ -9,5 +9,6 @@ Centos 7
 ||releases placeholder||
 
 ## Packages
-Aside from the bare mininum, the following [[packages|https://github.com/VoyagerInnovations/hardened1-packages/blob/master/packages.txt]] are included.
+Aside from the bare mininum, the following [packages](https://github.com/VoyagerInnovations/hardened1-packages/blob/master/packages.txt) are included.
+
 #
