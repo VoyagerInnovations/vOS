@@ -1,5 +1,5 @@
-### vOS Hardened OS
+## vOS Hardened OS
 
-## Supported OS
+### Supported OS
 CentOS 6
 Centos 7
