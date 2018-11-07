@@ -2,8 +2,8 @@
 A minimal CentOS-based hardened OS ideal for AWS.
 
 ### Supported OS
-CentOS 6
-Centos 7
+- CentOS 6
+- Centos 7
 
 ## Releases
 ||releases placeholder||
