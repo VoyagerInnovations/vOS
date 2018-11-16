@@ -32,16 +32,16 @@ ClamAV is included!
 
 Todo: Discuss details
 
-#### OSSEC HIDS
+#### OSSEC HIDS / FIM
 Todo: Discuss details
 
 #### Pre-downloaded Agents
-Some pre-downloaded are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own method.
+Some pre-downloaded are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own preferred method.
 
 The following are available:
   - Splunk Forwarder
   - Qualys Agent
-  - 
+  - etc
 
 #### Packages
 The list of packages is available [publicly](https://github.com/VoyagerInnovations/hardened1-packages). Feel free to submit a merge request if you want to add your own package.
