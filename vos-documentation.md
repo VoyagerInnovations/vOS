@@ -4,7 +4,7 @@
 At it's current state, vOS supports both CentOS 6 and CentOS 7.
 
 #### Default user
-Default user is voyagerse. From this account, one can use sudo to gain super user privileges.
+Default user is __**voyagerse**__. From this account, one can use sudo to gain super user privileges.
 
 #### SSH Authorized Keys location
 Local ssh authorized keys file is located in /etc/ssh/keys/%u, where %u is the username. This file is owned by the super user and can not be modified other than the same.
@@ -13,12 +13,14 @@ Local ssh authorized keys file is located in /etc/ssh/keys/%u, where %u is the u
 Hardening is based on the PCI DSS (which version?) standards and applied through [puppet manifests](https://github.com/VoyagerInnovations/puppet-cis-module)
 
 #### Application Logs
-Log files under the directory **/var/log/apps** will be rotated automatically through the configuration at **/etc/logrotate.d/apps**.
+Log files under the directory __**/var/log/apps**__ will be rotated automatically through the configuration at **/etc/logrotate.d/apps**.
+
+It it recommended that all application logs go to this directory.
 
 Todo: Add more details like frequency, etc.
 
 #### NTP Syncronization
-The default time syncronization app is chrony which can be configured through **/etc/chrony.conf**
+The default time syncronization app is chrony which can be configured through __**/etc/chrony.conf**__.
 
 ntpd is still available through the default repository.
 
@@ -34,7 +36,7 @@ Todo: Discuss details
 Todo: Discuss details
 
 #### Pre-downloaded Agents
-Some pre-downloaded are available at /installers to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own method.
+Some pre-downloaded are available at __**/installers**__ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own method.
 
 The following are available:
   - Splunk Forwarder
