@@ -12,5 +12,10 @@ Local ssh authorized keys file is located in /etc/ssh/keys/%u, where %u is the u
 #### Hardening
 Hardening is based on the PCI DSS (which version?) standards and applied through [puppet manifests](https://github.com/VoyagerInnovations/puppet-cis-module)
 
+#### Application Logs
+Log files under the directory **/var/log/apps** will be rotated automatically through the configuration at **/etc/logrotate.d/apps**.
+
+Todo: Add more details like frequency, etc.
+
 #### Packages
 The list of packages is available [publicly](https://github.com/VoyagerInnovations/hardened1-packages). Feel free to submit a merge request if you want to add your own package.
