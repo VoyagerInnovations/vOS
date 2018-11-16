@@ -40,7 +40,7 @@ Todo: Discuss details
 Todo: Discuss details
 
 #### Pre-downloaded Agents
-Some pre-downloaded are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own preferred method.
+Some pre-downloaded packages are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own preferred method.
 
 The following are available:
   - Splunk Forwarder
