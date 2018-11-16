@@ -25,5 +25,13 @@ ntpd is still available through the default repository.
 #### Syslog Daemon
 Todo: Identify default logging server.
 
+#### Anti-Malware
+ClamAV is included!
+
+Todo: Discuss details
+
+#### OSSEC HIDS
+Todo: Discuss details
+
 #### Packages
 The list of packages is available [publicly](https://github.com/VoyagerInnovations/hardened1-packages). Feel free to submit a merge request if you want to add your own package.
