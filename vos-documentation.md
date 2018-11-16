@@ -4,7 +4,7 @@
 At it's current state, vOS supports both CentOS 6 and CentOS 7.
 
 #### Default user
-Default user is _**voyagerse**_. From this account, one can use sudo to gain super user privileges.
+Default user is _*voyagerse*_. From this account, one can use sudo to gain super user privileges.
 
 #### SSH Authorized Keys location
 Local ssh authorized keys file is located in /etc/ssh/keys/%u, where %u is the username. This file is owned by the super user and can not be modified other than the same.
