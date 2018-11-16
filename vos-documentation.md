@@ -1,13 +1,12 @@
+### Documentation
 
-## 
+#### Base Operating System
 
-### Base Operating System
+#### Default user
 
-### Default user
+#### SSH Authorized Keys location 
 
-### SSH Authorized Keys location 
+#### Hardening
 
-### Hardening
-
-### Packages
+#### Packages
 
