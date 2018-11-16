@@ -13,14 +13,14 @@ Local ssh authorized keys file is located in /etc/ssh/keys/%u, where %u is the u
 Hardening is based on the PCI DSS (which version?) standards and applied through [puppet manifests](https://github.com/VoyagerInnovations/puppet-cis-module)
 
 #### Application Logs
-Log files under the directory _**/var/log/apps**_ will be rotated automatically through the configuration at _**/etc/logrotate.d/apps**_.
+Log files under the directory _/var/log/apps_ will be rotated automatically through the configuration at _/etc/logrotate.d/apps_.
 
 It it recommended that all application logs go to this directory.
 
 Todo: Add more details like frequency, etc.
 
 #### NTP Syncronization
-The default time syncronization app is chrony which can be configured through _**/etc/chrony.conf**_.
+The default time syncronization app is chrony which can be configured through _/etc/chrony.conf_.
 
 ntpd is still available through the default repository.
 
@@ -36,7 +36,7 @@ Todo: Discuss details
 Todo: Discuss details
 
 #### Pre-downloaded Agents
-Some pre-downloaded are available at _**/installers**_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own method.
+Some pre-downloaded are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own method.
 
 The following are available:
   - Splunk Forwarder
