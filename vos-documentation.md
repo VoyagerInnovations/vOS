@@ -20,12 +20,16 @@ It it recommended that all application logs go to this directory.
 Todo: Add more details like frequency, etc.
 
 #### NTP Syncronization
-The default time syncronization app is chrony which can be configured through _/etc/chrony.conf_.
+The default time syncronization app is _chrony_ (not ntpd) which can be configured through _/etc/chrony.conf_.
 
 ntpd is still available through the default repository.
 
 #### Syslog Daemon
-Todo: Identify default logging server.
+Default syslog daemon is rsyslogd.
+
+Configuration files:
+  - /etc/rsyslog.conf
+  - /etc/rsyslog.d/*
 
 #### Anti-Malware
 ClamAV is included!
