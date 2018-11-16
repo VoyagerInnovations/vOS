@@ -17,5 +17,13 @@ Log files under the directory **/var/log/apps** will be rotated automatically th
 
 Todo: Add more details like frequency, etc.
 
+#### NTP Syncronization
+The default time syncronization app is chrony which can be configured through **/etc/chrony.conf**
+
+ntpd is still available through the default repository.
+
+#### Syslog Daemon
+Todo: Identify default logging server.
+
 #### Packages
 The list of packages is available [publicly](https://github.com/VoyagerInnovations/hardened1-packages). Feel free to submit a merge request if you want to add your own package.
