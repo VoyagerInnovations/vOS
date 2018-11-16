@@ -1,4 +1,3 @@
-## vOS Hardened OS
 A minimal CentOS-based hardened OS ideal for AWS.
 
 ### Supported OS
