@@ -46,6 +46,13 @@ The following are available:
   - Splunk Forwarder
   - Qualys Agent
   - etc
+  
+#### AWS Tagging
+There is no need for an external system for tagging. The instance itself can tag itself provided that the instance is launched with an instance role with the following policy:
+
+```
+Put the policy here
+```
 
 #### Packages
 The list of packages is available [publicly](https://github.com/VoyagerInnovations/hardened1-packages). Feel free to submit a merge request if you want to add your own package.
