@@ -1,4 +1,4 @@
-A minimal CentOS-based hardened OS ideal for AWS.
+vOS is minimal CentOS-based hardened OS ideal for AWS.
 
 ### Supported OS
 - CentOS 6
