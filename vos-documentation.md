@@ -51,7 +51,16 @@ The following are available:
 There is no need for an external system for tagging. The instance itself can tag its own provided that the instance is launched with an instance role with the following policy:
 
 ```
-Put the policy here
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": "ec2:CreateTags",
+			"Resource": "arn:aws:ec2:*:*:instance/*"
+		}
+	]
+}
 ```
 #### Monitoring
 osquery is installed by default.
