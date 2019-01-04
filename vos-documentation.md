@@ -40,12 +40,14 @@ Todo: Discuss details
 Todo: Discuss details
 
 #### Pre-downloaded Agents
-Some pre-downloaded packages are available at _/installers_ to minimize the time it takes to make a first book. The packages are available but not yet installed. Install the package using your own preferred method.
+Some pre-downloaded packages are available at _/installers_ to minimize the time it takes to make a first boot. The packages are available but not yet installed. Install the package using your own preferred method.
 
 The following are available:
   - Splunk Forwarder
   - Qualys Agent
-  - etc
+  - osquery
+  - filebeat
+    
   
 #### AWS Tagging
 There is no need for an external system for tagging. The instance itself can tag its own provided that the instance is launched with an instance role with the following policy:
