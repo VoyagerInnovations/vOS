@@ -7,6 +7,7 @@ vOS is minimal and hardened CentOS-based hardened OS ideal for AWS.
 
 | AMI ID | AMI Name | Description |
 | ------------- |:-------------:| -----:|
+| ami-0fb92e92143d5762e | 20190425-094212-test-guardians_pzgenio-centos-3.10.0-957.10.1.el7.x86_64 | 2019-04-25T09:51:48.000Z<br><br>20190425-094212-test-guardians_pzgenio-centos-3.10.0-957.10.1.el7.x86_64 |
 | ami-0c336590f4bb3fb6e | 20190425-072927-test-guardians_pzgenio-centos-3.10.0-957.10.1.el7.x86_64 | 2019-04-25T07:39:33.000Z<br><br>20190425-072927-test-guardians_pzgenio-centos-3.10.0-957.10.1.el7.x86_64 |
 | ami-06b0a58ca8516638a | 20190125-074833-test-guardians_pzgenio-centos-3.10.0-957.1.3.el7.x86_64 | 2019-01-25T07:59:03.000Z<br><br>20190125-074833-test-guardians_pzgenio-centos-3.10.0-957.1.3.el7.x86_64 |
 | ami-0d91e5ff9a3b2014a | 20190125-073321-test-guardians_pzgenio-centos-3.10.0-957.1.3.el7.x86_64 | 2019-01-25T07:41:55.000Z<br><br>20190125-073321-test-guardians_pzgenio-centos-3.10.0-957.1.3.el7.x86_64 |
